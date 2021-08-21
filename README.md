@@ -12,6 +12,8 @@ The Rectangle class contains:
 4.	A method named getArea() that returns the area of this rectangle.
 5.	A method named getPerimeter() that returns the perimeter.
 6. A method named toString() that returns a string description for the rectangle.
+
+
 The toString() method shall be implemented as follows:
 return "Rectangle: width = " + width + " height = " + height;
 The test program prompts the user to enter width and height of the rectangle, a color, and a Boolean value to indicate whether the rectangle is filled. The program creates a Rectangle object and sets the color and filled properties using the input. The program displays the area, perimeter, color, and true or false to indicate whether it is filled or not.
